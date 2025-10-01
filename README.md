@@ -1,6 +1,6 @@
-# VPC Peering + RDS VPN Terraform Setup
+# VPC Peering + RDS VPN OpenTofu Setup
 
-This project provisions a secure AWS architecture using Terraform:
+This project provisions a secure AWS architecture using OpenTofu:
 
 - 🛡️ VPC 1: Hosts the RDS (MySQL) database  
 - 🌐 VPC 2: Hosts the AWS Client VPN endpoint  
@@ -25,7 +25,7 @@ This project provisions a secure AWS architecture using Terraform:
 
 ## 📁 Project Structure
 
-- main.tf – Core Terraform infrastructure  
+- main.tf – Core OpenTofu infrastructure  
 - outputs.tf – Connection details  
 - generate-ovpn.sh – Script to build the .ovpn file  
 - client.ovpn – VPN client configuration (auto-generated)
